@@ -1,0 +1,648 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+  font-family: "Poppins", cursive;
+  font-size: 40px;
+  color: white;
+  margin: 0;
+}
+
+header {
+  font-family: "Press Start 2P", cursive;
+  background-image: url("https://github.com/olegr2005/olegr_project/blob/main/back_header1.gif?raw=true");
+  backdrop-filter: blur(20px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 64px solid;
+  border-image: url("https://github.com/olegr2005/olegr_project/blob/main/IMG_20230404_174546.png?raw=true")
+    30% round;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+  border-left: 10px solid;
+  border-right: 10px solid;
+  border-image: url("https://github.com/olegr2005/olegr_project/blob/main/IMG_20230403_023219.png?raw=true")
+    70 round round;
+  border-image-width: 16px;
+  border-image-outset: 0px;
+}
+
+.sign {
+  width: 30%;
+  height: 15%;
+  background: #ebd6b3;
+  border: 10px solid rgb(89, 68, 35);
+  position: relative;
+  top: 88px;
+  border-radius: 90px;
+  margin: 0 auto;
+  overflow: hidden;
+  align-items: center;
+}
+
+.why > .container {
+  padding-top: 5%;
+}
+
+.sign > .title {
+  color: black;
+  font-size: 15px;
+  text-align: center;
+  padding: 16%;
+  margin: auto 0;
+  /*   border: 4px solid #ffeb3b; */
+}
+
+.why {
+  height: auto;
+  background-image: url("https://github.com/olegr2005/olegr_project/blob/main/bg_wall_stone.png?raw=true");
+  background-size: cover;
+}
+
+.signWhy {
+  width: 65%;
+  background: #ebd5b3;
+  border: 10px solid #594423;
+  border-radius: 10px;
+}
+
+.torchWrapper {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.torch {
+  width: 20%;
+  height: auto;
+  background: url("https://github.com/olegr2005/olegr_project/blob/main/Torch.png?raw=true");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.wrapperQ {
+  display: flex;
+  justify-content: space-between;
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+
+#btn{
+  display: block;
+  position: fixed;
+  top: 87%;
+  left: 93%;
+  width: 106px;
+  height: 106px;
+  background-image: url('https://github.com/olegr2005/olegr_project/blob/main/My%20project.png?raw=true');
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 2s;
+}
+
+.icon {
+  display: block;
+  margin: 0 auto;
+  backdrop-filter: blur(5px);
+  width: 160px;
+  height: 200px;
+  border: 15px solid;
+  border-image: url("https://github.com/olegr2005/olegr_project/blob/main/IMG_20230404_174546.png?raw=true")
+    30% round;
+  background-size: cover;
+  padding-top: 20px;
+  /*   padding-top: 50%; */
+  transition: 1s;
+}
+
+.icon > .title {
+  padding: 3px;
+  border: 2px solid #281d1d;
+  background: rgba(0, 0, 0, 0.5);
+  font-weight: 600;
+  text-align: center;
+  height: 90%;
+  font-size: 20px;
+  color: white;
+  transition: 1s;
+}
+
+.icon > .text {
+  overflow: hidden;
+  font-weight: 300;
+  font-size: 15px;
+  text-align: center;
+  height: 10%;
+  background: url("https://github.com/olegr2005/olegr_project/blob/main/bg-wool-dark.png?raw=true");
+  opacity: 0.5;
+  transition: 1s;
+}
+
+.wrapperQ > .icon:nth-child(3) {
+  background-image: url("https://github.com/olegr2005/olegr_project/blob/main/icon3.gif?raw=true");
+}
+
+.wrapperQ > .icon:nth-child(2) {
+  background-image: url("https://github.com/olegr2005/olegr_project/blob/main/icon2.gif?raw=true");
+}
+
+.wrapperQ > .icon:nth-child(1) {
+  background-image: url("https://github.com/olegr2005/olegr_project/blob/main/ico.gif?raw=true");
+}
+
+.icon:hover {
+  padding-top: 0;
+}
+
+.icon:hover .text {
+  overflow: scroll;
+  height: 80%;
+  opacity: 1;
+}
+
+.icon:hover .title {
+  font-size: 10px;
+  height: 20%;
+  border: none;
+  background: none;
+}
+
+.signWhy > .btn {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: white;
+  width: 350px;
+  padding: 10px;
+  border: 3px solid black;
+  font-family: "Press Start 2P", cursive;
+  background: #6d6d6d;
+  font-size: 10px;
+  margin: 3% auto;
+  transform: all(1s);
+}
+
+.signWhy > .btn:hover {
+  background: white;
+  color: black;
+  transition: 1s;
+}
+
+.facts {
+  font-family: "Press Start 2P", cursive;
+  height: 100%;
+  border-top: 64px solid;
+  border-image: url("https://github.com/olegr2005/olegr_project/blob/main/IMG_20230404_174546.png?raw=true")
+    30% round;
+}
+
+.img {
+  width: 30%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fact {
+  display: flex;
+  height: 238px;
+  border-bottom: 10px solid firebrick;
+}
+
+.fact:nth-child(3) {
+  border-bottom: none;
+}
+
+#header{
+  transition: opacity 1s ease-in-out;
+}
+
+.fact > .text {
+  font-size: 15px;
+  width: 70%;
+  height: auto;
+  padding: 1%;
+  display: flex;
+  align-items: center;
+}
+
+.fact:nth-child(1) > .img {
+  background-image: url("https://github.com/olegr2005/olegr_project/blob/main/fact1.gif?raw=true");
+  box-shadow: inset -74px 85px 269px 8px rgba(217, 63, 217, 1);
+}
+
+.fact:nth-child(1) > .text {
+  background: linear-gradient(
+    90deg,
+    rgba(205, 60, 200, 1) 8%,
+    rgba(143, 38, 203, 1) 22%,
+    rgba(82, 25, 125, 1) 38%,
+    rgba(30, 11, 47, 1) 57%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  text-align: right;
+  padding-right: 0;
+}
+
+.fact:nth-child(2) > .img {
+  background-image: url("https://github.com/olegr2005/olegr_project/blob/main/fact2.gif?raw=true");
+  box-shadow: inset 173px 200px 300px 21px rgba(71, 204, 255, 1);
+}
+
+.fact:nth-child(2) > .text {
+  background: linear-gradient(
+    90deg,
+    rgba(23, 22, 24, 1) 0%,
+    rgba(30, 11, 47, 1) 44%,
+    rgba(33, 25, 63, 1) 61%,
+    rgba(53, 118, 162, 1) 86%,
+    rgba(71, 204, 255, 1) 100%
+  );
+  text-align: left;
+  padding-left: 0;
+}
+
+.fact:nth-child(3) > .img {
+  background-image: url("https://github.com/olegr2005/olegr_project/blob/main/fact3.gif?raw=true");
+  box-shadow: inset -189px 27px 237px -2px rgba(196, 78, 41, 1);
+}
+
+.fact:nth-child(3) > .text {
+  background: linear-gradient(
+    90deg,
+    rgba(196, 78, 41, 1) 0%,
+    rgba(171, 95, 71, 1) 23%,
+    rgba(163, 77, 62, 1) 40%,
+    rgba(43, 25, 19, 1) 68%,
+    rgba(23, 22, 24, 1) 100%
+  );
+  text-align: right;
+  padding-left: 0;
+}
+
+.footer {
+  width: 100%;
+  height: 100%;
+  font-family: "Press Start 2P", cursive;
+  background: url("https://github.com/olegr2005/olegr_project/blob/main/bg-wool-dark.png?raw=true");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: 64px solid;
+  border-bottom: 32px solid;
+  border-image: url("https://github.com/olegr2005/olegr_project/blob/main/IMG_20230404_174546.png?raw=true")
+    30% round;
+}
+
+.footer > .container {
+  padding: 1%;
+}
+
+.wrapperInfo {
+  display: flex;
+  justify-content: space-around;
+}
+
+.infoText {
+  width: 30%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.icons {
+  width: 25px;
+  height: 25px;
+  border: 1px solid black;
+  margin-right: 10px;
+  border-radius: 3px;
+  background: white;
+  overflow: hidden;
+}
+
+svg {
+  display: block;
+  width: 22px;
+  height: 22px;
+  margin: 1px;
+}
+
+.wrI {
+  width: auto;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+.wrI > .text {
+  font-size: 10px;
+}
+
+.about {
+  width: 30%;
+  height: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.about > .title {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.about > .text {
+  font-size: 10px;
+  margin-bottom: 20px;
+}
+
+::-webkit-scrollbar {
+  background-color: #6b686a;
+  width: 0;
+  height: 0;
+}
+
+/* изменить цвет фона бегунка в Chrome и Safari */
+::-webkit-scrollbar-thumb {
+  background-color: rgba(1, 1, 1, 0.3);
+  border-radius: 39px;
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1700px) {
+  .wrapperQ{
+    width: 100%;
+    justify-content: space-around;
+  }
+  
+  .torch{
+    background: none;
+  }
+  
+  .sign > .title{
+    font-size: 10px
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .sign{
+    width: 70%;
+  }
+  
+  #btn{
+    top: 81%;
+    left: 88%;
+  }
+  
+  .sign > .title {
+    font-size: 15px;
+  }
+  
+  .icon:nth-child(1){
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .icon:nth-child(3){
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+    
+  torchWrapper, torch {
+    none;
+  }
+ 
+  .signWhy > .btn{
+    width: 150px;
+  }
+  
+  .wrapperQ {
+    flex-direction: column;
+  }
+  
+  .fact > .text {
+    font-size: 10px;
+  }
+  
+  .fact{
+    height: 300px;
+  }
+  
+  .wrapperInfo{
+    flex-direction: column
+  }
+  
+  .about{
+    width: auto;
+  }
+  
+  .infoText{
+    width: auto;
+  }
+}
+  
+@media screen and (max-width: 600px) {
+  .sign > .title{
+    font-size: 5px;
+  }
+  
+  #btn{
+    top: 86%;
+    left: 87%;
+    width: 72px;
+    height: 90px;
+  }
+  
+  .icon{
+    width: 106px;
+    height: 156px;
+  }
+  
+  .icon > .title{
+    font-size: 15px;
+  }
+  
+  .icon > .text{
+    font-size: 10px;
+  }
+  
+  .wrI > .text{
+    font-size: 5px;
+  }
+  
+  .about > .title{
+    font-size: 10px;
+  }
+  
+  .about > .text{
+    font-size: 5px;
+  }
+  
+}
+
+@media screen and (max-width: 260px) {
+  .signWhy{
+    width: 100%;
+  }
+  
+  #btn{
+    top: 84%;
+    left: 78%;
+  }
+  
+  .signWhy>.btn{
+    width: 105px;
+    height: 50px;
+    line-height: 1.2em;
+  }
+  
+  .icon{
+    width: 79px;
+    height: 117px;
+  }
+  
+  .fact > .text{
+    width: 100%;
+  }
+  
+  .fact > .img{
+    width: 0;
+  }
+  
+  .wrI > .text{
+    font-size: 5px;
+  }
+  
+  .about > .title{
+    font-size: 10px;
+  }
+  
+  .about > .text{
+    font-size: 5px;
+  }
+  
+  svg{
+    width: 10px;
+    height: 10px;
+  }
+  
+  .icons{
+    width: 12px;
+    height: 12px;
+  }
+}
+  
